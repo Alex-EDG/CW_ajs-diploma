@@ -2,6 +2,10 @@
 
 ### Неронов Алексей группа <span style="color:green">**FPY-120**</span>
 
+[![Build status](https://ci.appveyor.com/api/projects/status/y1c8ji9yxj7o24lv?svg=true)](https://ci.appveyor.com/project/Alex-EDG/cw-ajs-diploma)
+
+
+
 ###### tags: `netology` `advanced js`
 
 ## Предыстория
