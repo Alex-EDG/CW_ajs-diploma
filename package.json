@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "predeploy": "rm -rf build && npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest",
@@ -25,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/Alex-EDG/CW_ajs-diploma/issues"
   },
-  "homepage": "https://github.com/Alex-EDG/CW_ajs-diploma#readme",
+  "homepage": "https://Alex-EDG.github.io/CW_ajs-diploma",
   "devDependencies": {
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.28.6",
